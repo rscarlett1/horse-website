@@ -1290,19 +1290,21 @@ button[type="submit"]:hover {
 
 /** Search bar */
 #custom-search-input {
-        margin:0;
+		background-color: purple;
+        margin: 0px;
         margin-top: 70px;
-        padding: 0;
+        padding-left: 0px;
     }
  
 #custom-search-input .search-query {
+	background-color: yellow;
     padding-right: 3px;
     padding-right: 4px \9;
     padding-left: 3px;
     padding-left: 4px \9;
     /* IE7-8 doesn't have border-radius, so don't indent the padding */
 
-    margin-bottom: 0;
+    margin-bottom: ;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -1335,11 +1337,6 @@ button[type="submit"]:hover {
 #master{
     max-width: 1020px;
     margin: 0 auto;
-}
-
-.jumbotron{
-	padding-top: 0 !important;
-	padding-bottom: 0 !important;
 }
 
 .box-pad{
@@ -1400,6 +1397,20 @@ nav.navbar-green a {
 	padding-top: 15px;
 }
 
+#background-image{
+	background-image: url("http://localhost/horse/wp-content/uploads/2016/11/horse-background-resized.jpg");
+}
+
+#logo-area{
+	background-color: #pink;
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+
+
+
 
 
 
@@ -1413,12 +1424,31 @@ nav.navbar-green a {
 
 /* ==== MEDIA QUERIES ==== */
 
-@media only screen and (max-width : 480px){
+@media only screen and (max-width : 766px){
 	#top-header{
 		background-color: #444954;
 		display: block;
 		text-align: center;
 
+	}
+
+	#header-logo{
+		display: flex;
+		justify-content: center;
+
+		/*background-color: yellow;
+		display: block;
+		text-align: center;*/
+	}
+
+	#custom-search-input{
+		margin-top: 0;
+		padding-left: 20px 20px;
+	}
+
+	#header-search{
+		display: flex;
+		justify-content: center;
 	}
 }
 

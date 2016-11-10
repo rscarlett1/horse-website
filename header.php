@@ -52,8 +52,8 @@
   <div class="container-fluid">
     <div class="row">
       <div id="horse-header">
-          <div id="top-header" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <p >We Deliver Every Weekday</p>
+            <div id="top-header" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <p>We Deliver Every Weekday</p>
             <p> &#40;04&#41;123 4567</p>
             <p>My Bag</p>
         </div>
@@ -61,25 +61,60 @@
     </div><!-- row -->
   </div><!-- container -->
 
-  <div class="container">
-    <div class="row">
-      <div class="text-center col-xs-12 col-sm-offset-4 col-sm-4">
-        <img src="http://localhost/horse/wp-content/uploads/2016/11/logo-horse.png" class="img-responsive" alt="Responsive image">
-      </div>
-    
 
-    <div id="custom-search-input">
-      <div class="input-group text-right col-xs-12 col-sm-4">
-          <input type="text" class="  search-query form-control" placeholder="Search" />
-          <span class="input-group-btn">
-              <button class="btn btn-danger" type="button">
-                  <span class=" glyphicon glyphicon-search"></span>
-              </button>
-          </span>
+
+  
+    <div id="background-image" class="row">
+    
+        <div class="col-xs-12 col-sm-0 col-md-4 col-lg-4"></div>
+
+          <div id="header-logo" class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <img src="http://localhost/horse/wp-content/uploads/2016/11/logo-horse.png" class="img-responsive" alt="Responsive image">
+          </div>
+
+      <div id="header-search" class="text-right col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div id="custom-search-input" class="text-center">
+          <div class="input-group">
+              <input type="text" class="  search-query form-control" placeholder="Search" />
+              <span class="input-group-btn">
+                  <button class="btn btn-danger" type="button">
+                      <span class=" glyphicon glyphicon-search"></span>
+                  </button>
+              </span>
+          </div>
+        </div>
+      </div>
+    </div><!-- row -->
+  
+    <div class="container text-center">
+  <h3>What We Do</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Current Project</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Project 2</p>
+    </div>
+    <div class="col-sm-4">
+      <div class="well">
+       <p>Some text..</p>
+      </div>
+      <div class="well">
+       <p>Some text..</p>
       </div>
     </div>
-    </div><!-- row -->
-  </div><!-- container -->
+  </div>
+</div><br>
+
+
+
+
+
+
+
+
   
 
 
