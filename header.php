@@ -47,117 +47,141 @@
 
         <!-- HEADER -->
  
- <!--  -->
-
-  <div class="container-fluid">
-    <div class="row">
-      <div id="horse-header">
-            <div id="top-header" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <p>We Deliver Every Weekday</p>
-            <p> &#40;04&#41;123 4567</p>
-            <p>My Bag</p>
-        </div>
-      </div><!-- horse-header -->
-    </div><!-- row -->
-  </div><!-- container -->
+<div class="container-fluid">
+  <div class="row">
+    <div id="horse-header">
+          <div id="top-header" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <p>We Deliver Every Weekday</p>
+          <p> &#40;04&#41;123 4567</p>
+          <p>My Bag</p>
+      </div>
+    </div><!-- horse-header -->
+  </div><!-- row -->
+  
 
 
 
   
-    <div id="background-image" class="row">
-    
-        <div class="col-xs-12 col-sm-0 col-md-4 col-lg-4"></div>
+  <div id="background-image" class="row">
+    <div class="col-xs-12 col-sm-0 col-md-4 col-lg-4">
+    </div>
 
-          <div id="header-logo" class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <img src="http://localhost/horse/wp-content/uploads/2016/11/logo-horse.png" class="img-responsive" alt="Responsive image">
-          </div>
+    <div id="header-logo" class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <img src="http://localhost/horse/wp-content/uploads/2016/11/logo-horse.png" class="img-responsive" alt="Responsive image">
+    </div>
 
-      <div id="header-search" class="text-right col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div id="custom-search-input" class="text-center">
-          <div class="input-group">
-              <input type="text" class="  search-query form-control" placeholder="Search" />
-              <span class="input-group-btn">
-                  <button class="btn btn-danger" type="button">
-                      <span class=" glyphicon glyphicon-search"></span>
-                  </button>
-              </span>
-          </div>
+    <div id="header-search" class="text-right col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <div id="custom-search-input" class="text-center">
+        <div class="input-group">
+          <input type="text" class="  search-query form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button class="btn btn-danger" type="button">
+                  <span class=" glyphicon glyphicon-search"></span>
+                </button>
+            </span>
         </div>
       </div>
-    </div><!-- row -->
-
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-    
-      
-
-            
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-              </ul>
-            
+    </div>
+  </div><!-- row -->
   
+
+
 
 
 
 
   <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
+       <!--  <div class="row">
+        <div class="col-xs-12"> -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li> <a href="#">About Us</a></li>
+
+          <li> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Store<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+               <li> <a href="#">Duvet Cover Sets</a></li>
+              <li> <a href="#">Figurines</a></li>
+              <li> <a href="#">Horse Cushions</a></li>
+              <li> <a href="#">Wall Paper</a></li>
+            </ul>
+          </li>
+
+          <li> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Customer Support<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+               <li> <a href="#">Past Orders</a></li>
+              <li> <a href="#">Edit Profile</a></li>
+            </ul>
+          </li>
+
+          <li> <a href="#">Contact Us</a></li>
+              
+
+          <li> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+               <li> <a href="#">Past Orders</a></li>
+              <li> <a href="#">Edit Profile</a></li>
+            </ul>
+          </li>
+
+          <li class="navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </li>
+        </ul>
         
+  </div><!-- collapse -->
+</div><!-- container-fluid -->
+      
 
-        <li class="dropdown">
-          <a href="My Store" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The Store<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Duvet Cover Sets</a></li>
-            <li><a href="#">Figurines</a></li>
-            <li><a href="#">Wallpaper</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Horse Cushions</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">posters</a></li>
-          </ul>
-        </li>
-      </ul>
 
-       <ul class="nav navbar-nav">
-        <li><a href="#">About Us</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
 
-</div><!-- row -->
-</div><!-- container -->
-</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    
+      
+
+            
+              
+  
+
+
+
+
+  
+ 
 
 
 
