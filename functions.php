@@ -138,7 +138,7 @@ wp_enqueue_style( 'font-awesome', get_template_directory_uri() .'/css/font-aweso
  
 if( !is_admin()){
     wp_deregister_script( 'jquery' );
-    wp_register_script('jquery', get_template_directory_uri().'/js/jquery.min.js', false,'1.10.2',true);
+    wp_register_script('jquery', get_template_directory_uri().'/js/jquery-2.2.4.min.js', false,'1.10.2',true);
     wp_enqueue_script('jquery');
 }
 wp_enqueue_script( 'bootstrap-min-js', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '3.3.4', true );

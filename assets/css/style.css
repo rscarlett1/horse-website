@@ -1281,12 +1281,6 @@ button[type="submit"]:hover {
 
 /** Raewynnes CSS */
 
-.horse-image{
-	background-image: url(../image/)
-	background position: center center; 
-	background-size: cover;
-	height: 200px;
-}
 
 /** Search bar */
 #custom-search-input {
@@ -1334,57 +1328,29 @@ button[type="submit"]:hover {
 
 
 /************ nav bar ************/
-#master{
-    max-width: 1020px;
-    margin: 0 auto;
-}
-
-.box-pad{
-	margin: 0;
+.container-fluid{
 	padding: 0;
 }
-#left-nav{
-    position:relative;
-    top: 20px;
-}
-#left-nav a {
-    color: #000;
-}
-.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-    color: #fff;
-    background-color: #22Ab7a;
-    margin-bottom: 0;
-}
-.nav-pills ul {
-    margin-top: 20px;
-}
-.nav-pills>li>a {
-    background-color: #22Ab7a;
-    margin-bottom: 1px;
-    padding: 5px 9px;
-}
-#swf_container {
-    background: #fff;
-    margin-top: 20px;
+
+#master{
+	display: flex;
+    flex-wrap: nowrap;
+    flex-flow: flex-start;
 }
 
-#swf_container img{
-    position: relative;
-    top: 0;
-    left: 30px;
-}
-nav.navbar-green {
-    background-color: #22Ab7a;
-}
-nav.navbar-green a {
-       color: #111;
+#nav-style ul li a{
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 0 auto;
 }
 
-#horse-header{
-	/*background-color: pink;*/
-	/*height: 45px;*/
-	/*max-height: 10%*/
+.navbar-header{
+	background-color: pink;
 }
+
+/************ nav bar end************/
+
 
 #top-header{
 	background-color: #444954;
@@ -1399,12 +1365,14 @@ nav.navbar-green a {
 
 #background-image{
 	background-image: url("http://localhost/horse/wp-content/uploads/2016/11/horse-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #logo-area{
 	background-color: #pink;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-around;
 }
 
 
