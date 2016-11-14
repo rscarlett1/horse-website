@@ -76,9 +76,9 @@
         <img src="http://localhost/horse/wp-content/uploads/2016/11/logo-horse.png" class="img-responsive" alt="Responsive image">
       </div>
 
-      <div id="header-search" class="text-right col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <div class="text-right col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div id="custom-search-input" class="text-center">
-          <div class="input-group">
+          <div id="header-search" class="input-group">
             <input type="text" class="  search-query form-control" placeholder="Search" />
               <span class="input-group-btn">
                   <button class="btn btn-danger" type="button">
@@ -100,7 +100,7 @@
     <nav id="master" class="navbar">
       <div  class="container-fluid">
         <div class="row">
-          <div class="col-xs-12 col-md-12 col-12>
+          <div class="col-xs-10 col-sm-10 col-md-10 col-md-10>
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                   <span class="sr-only">Toggle navigation</span>
@@ -140,12 +140,16 @@
                           <li> <a href="#">Edit Profile</a></li>
                         </ul>
                       </li>
-
+                    </ul>
+                      
+                    <div class="col-sm-2 col-md-2 col-lg-2 sign-up-right">
+                    <ul>
                       <li>
                         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                       </li>
                     </ul>
+                   </div> 
             </div><!-- collapse -->
           </div><!-- xs 12 -->
         </div><!-- row -->

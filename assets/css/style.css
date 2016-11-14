@@ -1283,19 +1283,17 @@ button[type="submit"]:hover {
 
 /** Search bar */
 #custom-search-input {
-		background-color: purple;
-        margin: 0px;
+		margin: 0px;
         margin-top: 70px;
         padding-left: 0px;
     }
  
 #custom-search-input .search-query {
-	background-color: yellow;
-    padding-right: 3px;
+	padding-right: 3px;
     padding-right: 4px \9;
     padding-left: 3px;
     padding-left: 4px \9;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+     IE7-8 doesn't have border-radius, so don't indent the padding 
 
     margin-bottom: ;
     -webkit-border-radius: 3px;
@@ -1348,6 +1346,11 @@ button[type="submit"]:hover {
 	background-color: pink;
 }
 
+/*.sign-up-right{
+	display: flex;
+	justify-content: flex-end;
+}*/
+
 /************ nav bar end************/
 
 /************ background image area header************/
@@ -1396,7 +1399,6 @@ button[type="submit"]:hover {
 }
 
 #member-align{
-	background-color: pink;
 	display: flex;
 	justify-content: space-around;
 }	
@@ -1416,6 +1418,8 @@ button[type="submit"]{
 #address{
 	padding-left: 10%;
 }
+
+/************ end footer area************/
 
 
 
@@ -1452,6 +1456,8 @@ button[type="submit"]{
 	#header-search{
 		display: flex;
 		justify-content: center;
+		width: 80%;
+		padding-left: 18%
 	}
 
 	.panel{

@@ -33,7 +33,7 @@
                     <div class="form-group">
                         <h5 class="text-center">Become a Love Of Horses VIP</h5>
                         <label for="exampleInputEmail1">Email address:</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
                         <button type="submit" class="btn">Submit</button>
                     </div>
                 </form>
