@@ -1,31 +1,21 @@
 <?php /** * The template for displaying the footer. * * Contains the closing of the #content div and all content after. * * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials * * @package WiroSableng */ ?>
 
  
- 
+<body>
 <!-- #page -->
 <?php wp_footer(); ?>
  
  
-<footer>
+<footer class="footer-mobile">
     <div class="container">
         <div class="row"> 
-            <div id="footer-free" class="col-sm-12">
-            <a href="/"></a>
-            <?php if ( ot_get_option( 'Navbar_logo_horse' ) ) { ?>
-            <img src="<?php echo esc_url( ot_get_option( 'Navbar_logo_horse' ) ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-            <?php } ?>
-
-            <p class="text-center panel">Free Shipping On Orders Over &#36;100 in New Zealand</p>
+            <div id="footer-free" class="col-xs-12 col-sm-12 footer-mobile">
+              <p class="text-center panel">Free Shipping On Orders Over &#36;100 in New Zealand</p>
             </div><!-- end col 12 -->
         </div>
 
        <div class="row">
-            <div id="links" class="col-sm-3">
-                <?php wp_nav_menu( array( 'menu' => 'ul',
-                    'theme_location'    => 'secondary',
-                    'menu_class'         => 'list-unstyled list-inline',
-                    ));
-                    ?>
+            <div class="col-xs-12 col-sm-4 col-md-4 links footer-mobile">
                 <ul>
                     <li><a href="">Blog</a></li>
                     <li><a href="">Contact</a></li>
@@ -38,18 +28,29 @@
         
  
    
-            <div class="col-sm-6">
-            
-                <p>Become a Love Of Horses VIP</p>
-
-                <form>
+            <div id="member-align" class="col-xs-12 col-sm-4 col-md-4 footer-mobile">
+                <form id="footer-email" class="footer-mobile">
                     <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                    <button type="submit" class="btn">Submit</button>
+                        <h5 class="text-center">Become a Love Of Horses VIP</h5>
+                        <label for="exampleInputEmail1">Email address:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        <button type="submit" class="btn">Submit</button>
                     </div>
                 </form>
             </div><!-- col  -->
+
+            <div id="address" class="col-xs-12 col-sm-4 col-md-4 links footer-mobile">
+
+                <ul>
+                    <li><strong>Address:</strong></li>
+                    <br>
+                    <li>36 California Drive</li>
+                    <li>Totara Park</li>
+                    <li>Upper Hutt</li>
+                    <br>
+                    <li>Ph: &#40;04&#41;123 4567</li>
+                </ul>
+            </div>
     
 
 

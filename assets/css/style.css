@@ -957,10 +957,6 @@ button, input, .btn, a.btn {
 	border-collapse: #d95131;
 }
 
-button[type="submit"]{
-	font-size: 12px !important;
-}
-
 img {
 	max-width: 100%;
 }
@@ -1006,10 +1002,10 @@ margin-top: 0px;
 
 
 footer {
-	background: #000000;
+	background: #101113;
 	color: white;
 	padding: 20px 0 10px;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 footer p {
@@ -1021,7 +1017,7 @@ footer a:link, footer a:visited {
 }
 
 footer a:hover {
-	color: #dd5638;
+	color: #c53525;
 }
 
 footer li.signup-link a {
@@ -1039,7 +1035,6 @@ section {
 section.main-content {
 	padding: 40px 0;
 }
-
 
 .section-header {
 	text-align: center;
@@ -1355,7 +1350,7 @@ button[type="submit"]:hover {
 
 /************ nav bar end************/
 
-
+/************ background image area header************/
 #top-header{
 	background-color: #444954;
 	display: flex;
@@ -1374,14 +1369,16 @@ button[type="submit"]:hover {
 }
 
 #logo-area{
-	background-color: #pink;
 	display: flex;
 	justify-content: space-around;
 }
 
+/************ background image area header************/
+
+/************ start footer area************/
 .panel{
 	background-color: #444954;
-	width: 30%;
+	width: 50%;
 	padding: 7px;
 }
 
@@ -1390,10 +1387,35 @@ button[type="submit"]:hover {
 	justify-content: center;
 }
 
-#links ul li{
+.links ul{
+	margin: 0;
+}
+
+.links ul li{
 	list-style-type: none;
 }
 
+#member-align{
+	background-color: pink;
+	display: flex;
+	justify-content: space-around;
+}	
+
+button[type="submit"]{
+	font-size: 13px !important;
+	margin-top: 10px;
+	border: #346d36 solid 3px;
+}
+
+#footer-email{
+	width: 100%;
+	/*margin: 10px;*/
+}
+
+
+#address{
+	padding-left: 10%;
+}
 
 
 
@@ -1415,16 +1437,11 @@ button[type="submit"]:hover {
 		background-color: #444954;
 		display: block;
 		text-align: center;
-
 	}
 
 	#header-logo{
 		display: flex;
 		justify-content: center;
-
-		/*background-color: yellow;
-		display: block;
-		text-align: center;*/
 	}
 
 	#custom-search-input{
@@ -1436,6 +1453,32 @@ button[type="submit"]:hover {
 		display: flex;
 		justify-content: center;
 	}
+
+	.panel{
+		width: 100%;
+	}
+
+	.footer-mobile{
+		display: flex;
+		justify-content: center;
+	}
+
+	.footer-mobile ul{
+		margin-left: 0;
+		padding-left: 0;
+	}
+
+	#member-align form{
+		display: block;
+
+	}
+
+	#member-align form div{
+		text-align: center;
+
+	}
+
+	
 }
 
 
